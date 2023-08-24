@@ -1,0 +1,357 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Bebas+Neue&family=Bitter:wght@200;300&family=Bricolage+Grotesque:opsz,wght@10..48,200;10..48,300;10..48,500;10..48,700&family=Dancing+Script:wght@400;600&family=Inter:wght@400;700&family=Josefin+Sans:wght@400;700&family=Mochiy+Pop+One&family=Passion+One&family=Quicksand:wght@400;500;600&family=Roboto+Slab:wght@300;400&family=Wendy+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Bebas+Neue&family=Bitter:wght@200;300&family=Bricolage+Grotesque:opsz,wght@10..48,200;10..48,300;10..48,500;10..48,700&family=Cormorant+Garamond:ital,wght@0,300;0,500;1,600&family=Dancing+Script:wght@400;600&family=Inter:wght@400;700&family=Josefin+Sans:wght@400;700&family=Mochiy+Pop+One&family=Passion+One&family=Quicksand:wght@400;500;600&family=Roboto+Slab:wght@300;400&family=Wendy+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Bebas+Neue&family=Bitter:wght@200;300&family=Bricolage+Grotesque:opsz,wght@10..48,200;10..48,300;10..48,500;10..48,700&family=Caprasimo&family=Cormorant+Garamond:ital,wght@0,300;0,500;1,600&family=Dancing+Script:wght@400;600&family=Inter:wght@400;700&family=Josefin+Sans:wght@400;700&family=Mochiy+Pop+One&family=Passion+One&family=Quicksand:wght@400;500;600&family=Roboto+Slab:wght@300;400&family=Wendy+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Bebas+Neue&family=Bitter:wght@200;300&family=Bricolage+Grotesque:opsz,wght@10..48,200;10..48,300;10..48,500;10..48,700&family=Caprasimo&family=Cormorant+Garamond:ital,wght@0,300;0,500;1,600&family=Dancing+Script:wght@400;600&family=Inter:wght@400;700&family=Josefin+Sans:wght@400;700&family=Karla:ital,wght@0,200;0,300;0,500;0,700;1,300;1,400&family=Mochiy+Pop+One&family=Passion+One&family=Quicksand:wght@400;500;600&family=Roboto+Slab:wght@300;400&family=Wendy+One&display=swap');
+
+ :root{
+    --font-tiulo: 'Bricolage Grotesque', 'arial';
+    --font-tituloPrinciapl: 'Cormorant Garamond','sans-serif';
+    --font-subtitulo: 'Cormorant Garamond', 'sans-serif';
+    --font-titulo-segundario: 'Caprasimo',  'sans-serif';
+    --font-titulo-paragrafo: 'Karla';
+ }
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #fcfcee;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 1.40em;
+}
+
+h1{
+    font-family: var(--font-tiulo);
+    color: #D4064D;
+    font-size: 1.50em;
+    text-transform: uppercase;
+}
+
+
+nav > .menu__opcao{
+    font-size: 0.80em;
+    padding: 1em;
+    text-transform: uppercase;
+    color: #353333;
+}
+
+.menu__opcao:hover{
+    background-color: #D4064D;
+    color: #FDFDFC;
+    border-radius: 5px;
+}
+
+section{
+    background-color: #2F3237;
+}
+
+section.banner {
+    background-size: cover; /* mostrar 100% da imagem na tela (tamanho)*/
+    height: 35em;
+    background-image: url(/img/banner-3.jpg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-attachment: fixed;
+    box-shadow: inset;
+    border: 1px solid #2F3237;
+    /* filter: brightness(80%) - fazer sombra na img; 
+    */
+}
+
+.caixa{
+    width: 400px;
+    height: 100px;
+    margin: auto;
+    background-color: #03030377;
+}
+
+ .titulo-principal{
+    color: #fff;
+    text-align: center;
+    margin-top: 10em;
+    padding-top: 1em;
+    font-family: var(--font-tituloPrinciapl);
+} 
+
+.subtitulo{
+    color: #fff;
+    text-align: center;
+    font-weight: normal;
+    font-size: 0.99em;
+    font-family: var(--font-subtitulo);
+    
+}
+
+
+.container{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 2em;
+   
+}
+
+.conteudo{
+    width: 300px;
+    height: 370px;
+    margin: 2em;
+    background-color: #8d8f8f09;
+    border: 1px solid #0a0a0a34;
+    box-shadow: 10px 10px 5px black;
+   
+}
+
+.imagenm__new-york, .imagem__bairros{
+    width: 300px;
+    height: 189px;
+}
+
+.conteudo > h3{
+    padding: 0.80em;
+    color: #0a0a0a;
+    text-align: justify;
+    font-weight: normal;
+    font-size: 1em;
+}
+
+.conteudo__segundario{
+    margin: auto;
+    width: 700px;
+    height: 300px;
+    text-align: center;
+    padding-top: 10em;
+   
+}
+
+.titulo__segundario{
+    color: #D4064D;
+    font-family: var(--font-titulo-segundario);
+    padding-bottom: 0.70em;
+    font-size: 3em;   
+}
+
+.conteudo__subtitulo{
+    padding-bottom: 0.50em;
+    text-align: justify;
+    font-family: var(--font-titulo-paragrafo);
+}
+
+.conteudo__paragrafo{
+    font-family: var(--font-titulo-paragrafo);
+}
+
+
+.titulo__terceario{
+    text-align: center;
+    color: #D4064D;
+    font-family: var(--font-titulo-segundario);
+    padding-top: 5em;
+    padding-bottom: 1em;
+    font-size: 2em; 
+}
+
+.bairros__manhattan{
+    width: 92%;
+    height: 300px;
+    display: flex;
+    margin: auto;
+    padding-top: 2em;  
+}
+
+
+.titulo__bairros{
+    margin-top: 1em;
+    text-align: center;
+    font-family: var(--font-titulo-segundario);
+    font-weight: normal;
+    font-size: 1.50em;
+    color: #D4064D;
+}
+
+.titulo__bairros:hover{
+    color: #ac1348;
+}
+
+.paragrafos__bairros{
+    margin-top: 1em;
+    font-size: 0.90em; 
+}
+
+.transportes{
+    margin: 3em;
+    padding: 1.60em;
+    background-image: url(/img/transporte1.jpg);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-color: #ebeef34f;
+    border: 1px solid #2f32374d;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.137);
+}
+
+.titulo__transporte{
+    margin-bottom: 0.90em;
+    font-family: var(--font-titulo-segundario);
+    font-weight: normal;
+    color: #ac1348;
+}
+
+.paragrafo__transporte{
+    color: #353333;
+    font-weight: normal;
+    padding: 0.20em;
+}
+
+.rodape{
+    height: 12em;
+    background-color: #8d1f46;
+    text-align: center;
+    margin-top: 15em;
+}
+
+.titulo__rodape{
+    color:  #dee1e796;
+    font-size: 1.50em;
+    padding-top: 1.50em;
+    font-weight: bold;
+}
+
+.paragrafo__rodape{
+    color: #dee1e796;
+}
+
+.linha{
+    margin-top: 2em;
+    
+}
+
+.icones,.img{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.icones__img{
+    margin: 0.20em;
+    width: 1.20em;
+}
+
+
+@media (max-width: 375px){
+    
+    header > h1{
+        font-size: 0.80em;
+    }
+
+    nav > .menu__opcao{
+        font-size: 0.50em;
+        padding: 0;
+    }
+
+    .menu__opcao:hover{
+        background-color: #D4064D;
+        color: #FDFDFC;
+        border-radius: 5px;
+        padding: 0.40em;
+    }
+
+    .caixa{
+        width: 320px;
+        height: 100px;
+        margin: auto;
+        background-color: #03030377;
+    }
+
+    .container{
+        display: block;
+        margin-top: 3em;
+     }
+
+     .conteudo{
+        width: 300px;
+        height: 370px;
+        margin: 2em;
+        background-color: #8d8f8f09;
+        border: 1px solid #0a0a0a34;
+        box-shadow: 10px 10px 5px black;
+       
+    }
+
+    .bairros__manhattan{
+        width: 70%;
+        display: block;
+       margin-left: 2em;
+        
+    }
+
+    .conteudo__segundario{
+        width: 270px;
+    }
+    
+    .titulo__segundario, .titulo__terceario{
+        font-size: 1.42em;
+    }
+
+    .conteudo__subtitulo{
+        font-size: 0.80em ;
+    }
+
+    .conteudo__paragrafo{
+        margin-top: 15px;
+        font-size: 0.80em;
+    }
+
+    .titulo__bairros{
+        font-size: 1em;
+        margin-left: 2em;
+    }
+
+    .paragrafos__bairros{
+        width: 100%;
+        margin-left: 2.50em;
+        margin-bottom: 2em;
+    }
+
+    .imagem__bairros{
+        margin-left: 0.10em;
+    }
+
+    .transportes{
+      width: 85%;
+      margin: 70em 0em 0em 0em;
+      background-size: 13em;
+    }
+
+    .titulo__transporte{
+        font-size: 1em;
+    }
+
+    .paragrafo__transporte{
+       font-size: 0.60em;
+       font-weight: bolder;
+       color: #0a0a0a;
+    }
+
+    .rodape{
+        margin-top: 10em;
+    }
+
+    .paragrafo__rodape{
+        padding: 0.50em;
+        font-size: 0.70em;
+    }
+    
+    .desenvolvedora{
+      font-size: 0.70em;
+    }
+}
